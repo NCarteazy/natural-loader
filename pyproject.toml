@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "natural-loader"
+version = "0.1.0"
+description = ""
+authors = ["Nick C <carter.nicholas.r@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+mongoengine = "^0.28.2"
+ipykernel = "^6.29.4"
+black = "^24.4.2"
+requests = "^2.31.0"
+certifi = "^2024.2.2"
+python-dateutil = "^2.9.0.post0"
+six = "^1.16.0"
+urllib3 = "^2.2.1"
+autoflake = "^2.3.1"
+flake8 = "^7.0.0"
+mistralai = "^0.1.8"
+autopep8 = "^2.1.0"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
